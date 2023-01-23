@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+
+  padding: 1rem 4rem;
+
+  font-size: 700;
+}
+
+.trollFace {
+  height: 3rem;
+}
+
+.headerTitle {
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+/* Form */
+main {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  margin-top: 3rem;
+  width: 35%;
+}
+
+.submit {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 5rem;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Meme Image */
+.memeImage {
+  margin-top: 1rem;
+  width: 100%;
+}
